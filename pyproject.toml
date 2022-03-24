@@ -1,0 +1,12 @@
+[tool.pyright]
+include = [
+    "discord",
+    "tests"
+]
+
+pythonVersion = "3.10"
+typeCheckingMode = "strict"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
